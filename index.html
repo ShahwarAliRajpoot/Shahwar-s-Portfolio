@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Performance</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-image: url("bg.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      object-fit: contain;
+      height: 96.6vh;
+    }
+
+    h1 {
+      color: #dfdfdfeb;
+      font-size: 50px;
+      font-weight: 100;
+      font-family: system-ui;
+    }
+
+    span {
+      font-size: 21px;
+    }
+
+    ul {
+      list-style: none;
+    }
+
+    li {
+      border: 1px solid black;
+      width: fit-content;
+      padding: 15px 39px;
+      font-size: 24px;
+      margin: 52px 0px 52px 61px;
+      background: #49494978;
+      border-radius: 13px;
+    }
+
+    li:hover {
+      background: #5a5a5a;
+      color: #fff;
+      transition: 0.5s;
+      cursor: pointer;
+      animation: first 0.3s ease-in-out;
+    }
+
+    @keyframes first {
+      0% {
+        transform: rotate(7deg);
+      }
+
+      100% {
+        transform: rotate(-7deg);
+      }
+    }
+
+    a {
+      text-decoration: none;
+      color: #a1a1a1;
+    }
+
+    footer {
+      background: #494949;
+      text-align: center;
+      color: white;
+      font-family: serif;
+      padding: 4px 0px;
+    }
+  </style>
+
+  <body>
+    <div class="container">
+      <h1>Shahwar's Ali <span>(Performance)</span></h1>
+      <div>
+        <ul>
+          <a
+            href="https://shahwaralirajpoot.github.io/Loginpages/"
+            target="_blank"
+          >
+            <li>Login</li>
+          </a>
+          <a href="https://shahwaralirajpoot.github.io/form/" target="_blank">
+            <li>Login2</li>
+          </a>
+          <a
+            href="https://shahwaralirajpoot.github.io/RDDStudio/"
+            target="_blank"
+          >
+            <li>RRD studio</li>
+          </a>
+          <a
+            href="https://shahwaralirajpoot.github.io/Travelform/"
+            target="_blank"
+          >
+            <li>Travel</li>
+          </a>
+          <a
+            href="https://shahwaralirajpoot.github.io/FlowerStudio/"
+            target="_blank"
+          >
+            <li>N.F Studio</li>
+          </a>
+        </ul>
+      </div>
+    </div>
+    <footer>© 2023 Developed by Shahwar Ali</footer>
+  </body>
+</html>
